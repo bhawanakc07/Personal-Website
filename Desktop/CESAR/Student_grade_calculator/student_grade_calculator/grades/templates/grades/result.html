@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+</head>
+<body>
+    <h1>Result for {{ name }}</h1>
+    <p>Math: {{ math }}</p>
+    <p>Science: {{ science }}</p>
+    <p>English: {{ english }}</p>
+    <p>Total: {{ total }}</p>
+    <p>Average: {{ average }}</p>
+    <h2>Grade: {{ grade }}</h2>
+    <a href="{% url 'index' %}">Calculate Again</a>
+</body>
+</html>
